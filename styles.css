@@ -1,0 +1,156 @@
+
+body {
+  text-align: center;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+label{
+  color: Black;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.card-title{
+  color: Black;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #EAD2A8;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #F4FDFF;
+}
+
+.separator{
+  display: flex;
+  align-items: center;
+}
+
+.separator h2{
+  padding: 0 2rem; /* creates the space */
+}
+
+.separator .line{
+  flex: 1;
+  height: 1.5px;
+  background-color: #A0BED1;
+}
+
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:Black;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #EAD2A8;
+  color: #808080;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 50%;
+  position: absolute;
+  right: 30%;
+  bottom: -65%;
+}
+
+/* intro Section */
+
+#intro {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #cc9413;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #d39c14;
+}
+
+
+/* start Section */
+
+#start {
+  padding: 100px;
+}
+
+.start-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.start-column {
+  padding: 3% 2%;
+}
